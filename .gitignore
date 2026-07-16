@@ -1,10 +1,17 @@
-# Private/local data
-data/
+# Study data — never push to GitHub
+/data/
 
-# Local environment and OS files
-.DS_Store
+# Screenshots / scratch images (may capture unpublished reference figures)
+Screenshot*.png
+/*.png
+
+# Python
 .venv/
 __pycache__/
+*.py[cod]
+
+# Jupyter
 .ipynb_checkpoints/
-.env
-*.pyc
+
+# OS
+.DS_Store

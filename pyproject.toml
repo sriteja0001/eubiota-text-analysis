@@ -1,0 +1,19 @@
+[project]
+name = "eubiota-text-feedback-analysis"
+version = "0.1.0"
+description = "Text analysis of human-study feedback: why one system (Eubiota agent vs general chatbot) was picked over the other."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "pandas>=2.2",
+    "numpy>=1.26",
+    "scikit-learn>=1.4",     # TF-IDF, clustering, PCA/t-SNE
+    "matplotlib>=3.8",
+    "sentence-transformers>=2.7",  # semantic embeddings (bonus semantic map)
+    "wordcloud>=1.9",        # per-system word clouds
+    "jupyter>=1.0",
+    "ipykernel>=6.29",
+]
+
+[tool.uv]
+package = false
