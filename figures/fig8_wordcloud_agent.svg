@@ -1,60 +1,55 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="780" height="420">
-<style>@font-face{font-family:'Arial';font-weight:normal;font-style:normal;src:url("data:application/font-woff;charset=utf-8;base64,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")format("woff");}</style>
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="440">
+<style>@font-face{font-family:'Arial';font-weight:normal;font-style:normal;src:url("data:application/font-woff;charset=utf-8;base64,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")format("woff");}</style>
 <style>text{font-family:'Arial';font-weight:normal;font-style:normal;}</style>
 <rect width="100%" height="100%" style="fill:white"></rect>
-<text transform="translate(3,290)" font-size="228" style="fill:#4C72B0">specific</text>
-<text transform="translate(5,166)" font-size="222" style="fill:#4C72B0">trace</text>
-<text transform="translate(153,416)" font-size="170" style="fill:#4C72B0">citations</text>
-<text transform="translate(483,58)" font-size="71" style="fill:#4C72B0">important</text>
-<text transform="translate(521,121)" font-size="68" style="fill:#4C72B0">detailed</text>
-<text transform="translate(1,381)" font-size="53" style="fill:#4C72B0">helpful</text>
-<text transform="translate(200,37)" font-size="50" style="fill:#4C72B0">question</text>
-<text transform="translate(508,316)" font-size="36" style="fill:#4C72B0">transparent</text>
-<text transform="translate(140,156) rotate(-90)" font-size="35" style="fill:#4C72B0">tool</text>
-<text transform="translate(70,34)" font-size="34" style="fill:#4C72B0">in-line</text>
-<text transform="translate(635,155)" font-size="33" style="fill:#4C72B0">reasoning</text>
-<text transform="translate(297,115)" font-size="33" style="fill:#4C72B0">calls</text>
-<text transform="translate(9,328)" font-size="32" style="fill:#4C72B0">bottom</text>
-<text transform="translate(160,231)" font-size="32" style="fill:#4C72B0">felt</text>
-<text transform="translate(1,413)" font-size="24" style="fill:#4C72B0">comprehensive</text>
-<text transform="translate(326,311)" font-size="24" style="fill:#4C72B0">coverage</text>
-<text transform="translate(175,313)" font-size="24" style="fill:#4C72B0">many</text>
-<text transform="translate(694,320)" font-size="24" style="fill:#4C72B0">factors</text>
-<text transform="translate(685,238)" font-size="24" style="fill:#4C72B0">involved</text>
-<text transform="translate(424,233)" font-size="24" style="fill:#4C72B0">thing</text>
-<text transform="translate(634,393)" font-size="23" style="fill:#4C72B0">list</text>
-<text transform="translate(411,44)" font-size="23" style="fill:#4C72B0">claims</text>
-<text transform="translate(393,22)" font-size="23" style="fill:#4C72B0">citation</text>
-<text transform="translate(594,287) rotate(-90)" font-size="22" style="fill:#4C72B0">definitely</text>
-<text transform="translate(557,17)" font-size="22" style="fill:#4C72B0">fewer</text>
-<text transform="translate(125,327) rotate(-90)" font-size="22" style="fill:#4C72B0">unsupported</text>
-<text transform="translate(651,268) rotate(-90)" font-size="22" style="fill:#4C72B0">speculative</text>
-<text transform="translate(178,369)" font-size="22" style="fill:#4C72B0">super</text>
-<text transform="translate(408,130)" font-size="21" style="fill:#4C72B0">clear</text>
-<text transform="translate(487,165)" font-size="20" style="fill:#4C72B0">pmids</text>
-<text transform="translate(657,133)" font-size="17" style="fill:#4C72B0">sources</text>
-<text transform="translate(639,67)" font-size="17" style="fill:#4C72B0">use</text>
-<text transform="translate(4,398)" font-size="17" style="fill:#4C72B0">research</text>
-<text transform="translate(489,73)" font-size="15" style="fill:#4C72B0">search</text>
-<text transform="translate(541,283) rotate(-90)" font-size="14" style="fill:#4C72B0">better</text>
-<text transform="translate(303,125)" font-size="13" style="fill:#4C72B0">real</text>
-<text transform="translate(156,241)" font-size="13" style="fill:#4C72B0">evidence</text>
-<text transform="translate(635,132)" font-size="12" style="fill:#4C72B0">key</text>
-<text transform="translate(677,69)" font-size="12" style="fill:#4C72B0">credible</text>
-<text transform="translate(50,109)" font-size="12" style="fill:#4C72B0">full</text>
-<text transform="translate(474,125)" font-size="12" style="fill:#4C72B0">structure</text>
-<text transform="translate(74,44)" font-size="12" style="fill:#4C72B0">relevant</text>
-<text transform="translate(258,51)" font-size="12" style="fill:#4C72B0">future</text>
-<text transform="translate(680,12)" font-size="12" style="fill:#4C72B0">information</text>
-<text transform="translate(32,300)" font-size="11" style="fill:#4C72B0">findings</text>
-<text transform="translate(686,417)" font-size="11" style="fill:#4C72B0">all</text>
-<text transform="translate(63,337)" font-size="11" style="fill:#4C72B0">to-the-point</text>
-<text transform="translate(524,132)" font-size="11" style="fill:#4C72B0">see</text>
-<text transform="translate(274,301)" font-size="11" style="fill:#4C72B0">b's</text>
-<text transform="translate(340,291)" font-size="11" style="fill:#4C72B0">process</text>
-<text transform="translate(521,207)" font-size="11" style="fill:#4C72B0">prefer</text>
-<text transform="translate(452,319)" font-size="10" style="fill:#4C72B0">thorough</text>
-<text transform="translate(463,392) rotate(-90)" font-size="10" style="fill:#4C72B0">every</text>
-<text transform="translate(241,289) rotate(-90)" font-size="10" style="fill:#4C72B0">whereas</text>
-<text transform="translate(181,249)" font-size="10" style="fill:#4C72B0">tools</text>
+<text transform="translate(7,292)" font-size="239" style="fill:#4C72B0">specific</text>
+<text transform="translate(10,160)" font-size="225" style="fill:#4C72B0">trace</text>
+<text transform="translate(169,431)" font-size="177" style="fill:#4C72B0">citations</text>
+<text transform="translate(501,60)" font-size="76" style="fill:#4C72B0">important</text>
+<text transform="translate(596,109)" font-size="63" style="fill:#4C72B0">detailed</text>
+<text transform="translate(2,388)" font-size="58" style="fill:#4C72B0">helpful</text>
+<text transform="translate(537,325)" font-size="45" style="fill:#4C72B0">question</text>
+<text transform="translate(199,29)" font-size="38" style="fill:#4C72B0">transparent</text>
+<text transform="translate(409,37)" font-size="37" style="fill:#4C72B0">tool</text>
+<text transform="translate(332,329)" font-size="36" style="fill:#4C72B0">in-line</text>
+<text transform="translate(7,427)" font-size="36" style="fill:#4C72B0">reasoning</text>
+<text transform="translate(670,149)" font-size="35" style="fill:#4C72B0">calls</text>
+<text transform="translate(71,36)" font-size="34" style="fill:#4C72B0">bottom</text>
+<text transform="translate(755,334)" font-size="34" style="fill:#4C72B0">felt</text>
+<text transform="translate(4,332)" font-size="20" style="fill:#4C72B0">comprehensive</text>
+<text transform="translate(182,313)" font-size="20" style="fill:#4C72B0">coverage</text>
+<text transform="translate(20,311)" font-size="20" style="fill:#4C72B0">many</text>
+<text transform="translate(754,232)" font-size="20" style="fill:#4C72B0">factors</text>
+<text transform="translate(503,76)" font-size="20" style="fill:#4C72B0">involved</text>
+<text transform="translate(748,140)" font-size="20" style="fill:#4C72B0">thing</text>
+<text transform="translate(527,164)" font-size="19" style="fill:#4C72B0">list</text>
+<text transform="translate(518,93)" font-size="19" style="fill:#4C72B0">claims</text>
+<text transform="translate(197,384)" font-size="19" style="fill:#4C72B0">citation</text>
+<text transform="translate(454,237)" font-size="18" style="fill:#4C72B0">definitely</text>
+<text transform="translate(233,296)" font-size="18" style="fill:#4C72B0">fewer</text>
+<text transform="translate(503,108)" font-size="17" style="fill:#4C72B0">unsupported</text>
+<text transform="translate(305,109)" font-size="17" style="fill:#4C72B0">speculative</text>
+<text transform="translate(310,247)" font-size="17" style="fill:#4C72B0">super</text>
+<text transform="translate(563,378)" font-size="16" style="fill:#4C72B0">clear</text>
+<text transform="translate(113,156)" font-size="16" style="fill:#4C72B0">pmids</text>
+<text transform="translate(258,331)" font-size="14" style="fill:#4C72B0">sources</text>
+<text transform="translate(374,162)" font-size="14" style="fill:#4C72B0">use</text>
+<text transform="translate(368,300)" font-size="14" style="fill:#4C72B0">research</text>
+<text transform="translate(673,159)" font-size="12" style="fill:#4C72B0">search</text>
+<text transform="translate(381,288)" font-size="11" style="fill:#4C72B0">better</text>
+<text transform="translate(272,168)" font-size="10" style="fill:#4C72B0">real</text>
+<text transform="translate(767,152)" font-size="10" style="fill:#4C72B0">evidence</text>
+<text transform="translate(670,427)" font-size="9" style="fill:#4C72B0">key</text>
+<text transform="translate(664,371)" font-size="9" style="fill:#4C72B0">credible</text>
+<text transform="translate(319,211)" font-size="9" style="fill:#4C72B0">full</text>
+<text transform="translate(137,15)" font-size="9" style="fill:#4C72B0">structure</text>
+<text transform="translate(333,92)" font-size="9" style="fill:#4C72B0">relevant</text>
+<text transform="translate(367,37)" font-size="9" style="fill:#4C72B0">future</text>
+<text transform="translate(5,437)" font-size="9" style="fill:#4C72B0">information</text>
+<text transform="translate(475,330)" font-size="8" style="fill:#4C72B0">findings</text>
+<text transform="translate(709,308)" font-size="8" style="fill:#4C72B0">all</text>
+<text transform="translate(618,160)" font-size="8" style="fill:#4C72B0">to-the-point</text>
+<text transform="translate(302,304)" font-size="8" style="fill:#4C72B0">see</text>
+<text transform="translate(122,299)" font-size="8" style="fill:#4C72B0">b's</text>
+<text transform="translate(758,303)" font-size="8" style="fill:#4C72B0">process</text>
 </svg>
