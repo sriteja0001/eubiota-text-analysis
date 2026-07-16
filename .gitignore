@@ -1,0 +1,10 @@
+# Private/local data
+data/
+
+# Local environment and OS files
+.DS_Store
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+.env
+*.pyc
