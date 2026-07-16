@@ -19,6 +19,22 @@ Or run it headlessly:
 uv run jupyter nbconvert --to notebook --execute --inplace feedback_text_analysis.ipynb
 ```
 
+## Replicating on another machine (e.g. a fresh clone)
+
+Cloning the repo alone is **not enough** to run it — by design:
+
+1. **Put the data in place.** `/data` is git-ignored, so the study CSVs are **not** in the repo. Copy
+   the two `ANONYMOUS …` CSV files into a `data/` folder at the project root (share them privately, not
+   through GitHub). The notebook reads *only* the `ANONYMOUS ` files.
+2. **Build the environment:** `uv sync` (creates `.venv` from the locked `uv.lock`).
+3. **First run needs internet once.** Figure 9 (the semantic map) downloads a ~80 MB embedding model
+   (`sentence-transformers/all-MiniLM-L6-v2`) the first time and then caches it. The config cell handles
+   this automatically: **model cached → runs offline and instantly; not cached → downloads once.** (On a
+   fully offline machine, pre-seed `~/.cache/huggingface/` with the model.)
+
+Then run the headless command above. Everything else — theme coding (`code_themes.py`), the derived
+CSVs, and all figures — regenerates on its own.
+
 ## Data handling (important)
 
 - **Only the `ANONYMOUS ` files are read** — the loader asserts it, and ignores the non-anonymous
