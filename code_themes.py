@@ -27,7 +27,7 @@ THEMES = {  # abbreviation -> full label
     "cit": "citation_evidence", "tra": "transparency_trace", "tho": "detail_thoroughness",
     "spe": "specificity", "con": "conciseness_directness", "cla": "clarity_structure",
     "acc": "accuracy_correctness", "act": "actionability",
-    "uns": "unsupported_speculative", "ret": "retrieval_tool_failure",
+    "uns": "fewer_unsupported_claims", "ret": "retrieval_tool_failure",
 }
 
 # index (into the deterministic unique-feedback order) -> space-separated tags
